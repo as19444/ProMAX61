@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ProMAX61.Controllers
+namespace ShortBooking.Controllers
 {
     public class HomeController : Controller
     {
@@ -21,6 +21,20 @@ namespace ProMAX61.Controllers
         }
 
         public ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Host()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult AptDetails()
         {
             ViewBag.Message = "Your contact page.";
 

@@ -3,37 +3,90 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - shortbooking.net</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
 </head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-                @Html.Partial("_LoginPartial")
-            </div>
-        </div>
-    </div>
-    <div class="container body-content">
+<body id="myPage">
+
+    <div class="body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <th>Settings</th>
+                        <th>shortbookings.net</th>
+                        <th>Discover</th>
+                        <th>Hospitality</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="dropdown">
+                                <button class="btn btn-primary btn-xs dropdown-toggle" type="button" data-toggle="dropdown">
+                                    Language
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">English</a></li>
+                                    <li><a href="#">Arabic</a></li>
+                                    <li><a href="#">Rusian</a></li>
+                                    <li><a href="#">French</a></li>
+                                    <li><a href="#">Spanish</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td><a href="#">Careers</a></td>
+                        <td><a href="#">Trust and Safety</a></td>
+                        <td><a href="#">Why Host?</a></td>
+                    </tr>
+                    <tr>
+                        <td>English</td>
+                        <td><a href="#">Press</a></td>
+                        <td><a href="#">Travel Credit</a></td>
+                        <td><a href="#">Hospitality</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Privacy</a></td>
+                        <td><a href="#">Hosting</a></td>
+                        <td><a href="#">Responsible</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="dropdown" hidden>
+                                <button class="btn btn-primary btn-xs dropdown-toggle" type="button" data-toggle="dropdown">
+                                    Currency
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" hidden>
+                                    <li><a href="#">AED</a></li>
+                                    <li><a href="#">US $</a></li>
+                                    <li><a href="#">Euro</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td><a href="#">Policies</a></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>@*AED*@</td>
+                        <td><a href="#">Terms</a></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr />
+            <p class="smallfont">&copy; @DateTime.Now.Year </p>
         </footer>
     </div>
 

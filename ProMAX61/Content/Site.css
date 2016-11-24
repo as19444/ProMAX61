@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 20px;
 }
 
@@ -20,5 +20,94 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+    /*max-width: 280px;*/
+}
+/* ABS Settings */ 
+.smallfont{
+    font-size: x-small;
+}
+
+.property{
+    border: 5px solid transparent;
+    margin-bottom:10px;
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.property:hover{
+    border-color:#808080;
+}
+
+.property-border{
+    /*border: solid 1px gray ;
+    margin:5px;
+    border-radius:10px;*/
+    /*border-bottom:solid 1px black;*/
+}
+
+.carousel-inner img{
+    width: 100%;
+    margin:auto;
+}
+
+.navbar {
+    margin-bottom: 0;
+    /*background-color: #f4511e;*/
+    height: 50px;
+    background: linear-gradient(white, white);
+    z-index: 9999;
+    border: 0;
+    font-size: 15px !important;
+    line-height: 1 !important;
+    letter-spacing: 2px;
+    border-radius: 0;
+    opacity:1;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    /*color: #fff !important;*/
+    color: red !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    /*color: #fff !important;*/
+    color: red !important;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color:red;
+}
+.align-right{
+    text-align:right;
+    /*border-right: solid 1px black;*/
+}
+
+.carousel-caption{
+    padding-bottom: 20%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    color:yellow;
+    background-color:black;
+    padding: 25px;
 }

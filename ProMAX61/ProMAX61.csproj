@@ -173,6 +173,25 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\AshokSharma.jpg" />
+    <Content Include="Content\Images\donaldtrump.jpg" />
+    <Content Include="Content\Images\ChristianJabre.jpg" />
+    <Content Include="Content\Images\DubaiSkyline1.jpg" />
+    <Content Include="Content\Images\DubaiSkyline1a.jpg" />
+    <Content Include="Content\Images\DubaiSkyline2.jpg" />
+    <Content Include="Content\Images\DubaiSkyline3.jpg" />
+    <Content Include="Content\Images\DubaiSkyline4.jpg" />
+    <Content Include="Content\Images\DubaiSkyline5.jpg" />
+    <Content Include="Content\Images\Putin.jpg" />
+    <Content Include="Content\Images\Rent1.jpg" />
+    <Content Include="Content\Images\Rent2.jpg" />
+    <Content Include="Content\Images\Rent3.jpg" />
+    <Content Include="Content\Images\Rent4.jpg" />
+    <Content Include="Content\Images\Rent5.jpg" />
+    <Content Include="Content\Images\Rent6.jpg" />
+    <Content Include="Content\Images\Rent7.jpg" />
+    <Content Include="Content\Images\Rent8.jpg" />
+    <Content Include="Content\Images\Rent9.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
